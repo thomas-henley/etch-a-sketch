@@ -1,0 +1,37 @@
+body {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+#title {
+    margin: auto;
+}
+
+#sketchpad {
+    display: grid;
+    width: 600;
+    height: 600;
+    margin: auto;
+}
+
+#inputDiv {
+    margin: auto;
+    margin-bottom: 20;
+}
+
+#footer {
+    margin: auto;
+    width: auto;
+}
+
+.inked {
+    background-color: black;
+}
