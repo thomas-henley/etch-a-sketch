@@ -1,0 +1,29 @@
+<header>
+    <title>Etch-a-Sketch</title>
+    <!-- link rel="stylesheet" href="style.css" -->
+</header>
+
+<body>
+    <div>
+        <h3>Etch-a-Sketch</h3>
+    </div>
+    <div id="sketchpad">
+
+    </div>
+    <div>
+        <h3>Created by Thomas Henley</h3>
+    </div>
+</body>
+
+<style>
+    body {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+    }
+
+    #sketchpad {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+</style>
